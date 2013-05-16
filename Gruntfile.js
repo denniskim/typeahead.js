@@ -100,7 +100,7 @@ module.exports = function(grunt) {
 
     exec: {
       open_spec_runner: {
-        cmd: 'open _SpecRunner.html'
+        cmd: 'start _SpecRunner.html'
       },
       git_is_clean: {
         cmd: 'test -z "$(git status --porcelain)"'
